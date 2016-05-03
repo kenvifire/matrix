@@ -5,7 +5,7 @@
 # Output: the list L such that L[i] is the value associated in dct with keylist[i]
 # Example: dict2list({'a':'A', 'b':'B', 'c':'C'},['b','c','a']) should equal {'a':'A', 'b':'B', 'c':'C'}
 # Complete the procedure definition by replacing [ ... ] with a one-line list comprehension
-def dict2list(dct, keylist): pass
+def dict2list(dct, keylist): return [dct[key] for key in keylist]
 
 # Input: a list L and a list keylist of the same length
 # Output: the dictionary that maps keylist[i] to L[i] for i=0,1,...len(L)-1
